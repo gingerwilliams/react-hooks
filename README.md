@@ -10,3 +10,13 @@ React Hooks Boilerplate with Context and Parcel
 ## Scripts
 
 dev mock: cross-env to run offline
+
+## Hooks
+
+-   ! hooks cannot be inside of conditionals or loops
+-   They must be in the same order every time
+
+## useState
+
+-   array of two
+-   [state name, function to update state] = useState(initialState)

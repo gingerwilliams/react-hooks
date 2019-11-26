@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Effect from "./Effect";
+import One from "./One";
+import { PlayerContext, player } from "./Context";
 
 const App = () => {
     return (
         <div>
             <h1>hello hooks</h1>
-            <Effect />
+            <PlayerContext.Provider value={player}>
+                <One />
+            </PlayerContext.Provider>
         </div>
     );
 };

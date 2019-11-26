@@ -28,3 +28,7 @@ dev mock: cross-env to run offline
 -   useEffect(() => {})
 -   inside that function run the function to update state
 -   useEffect(() => {const time = setTime()})
+
+# useContext - Application Level State (Redux)
+
+-   createContext() takes an object

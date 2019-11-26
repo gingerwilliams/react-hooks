@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import State from "./State";
+import Effect from "./Effect";
 
 const App = () => {
     return (
         <div>
             <h1>hello hooks</h1>
-            <State />
+            <Effect />
         </div>
     );
 };

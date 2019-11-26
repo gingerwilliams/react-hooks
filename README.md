@@ -20,3 +20,11 @@ dev mock: cross-env to run offline
 
 -   array of two
 -   [state name, function to update state] = useState(initialState)
+
+## useEffect
+
+-   start with useState const [time, setTime] = useState(new Date());
+-   then useEffect, pass a function as the parameter
+-   useEffect(() => {})
+-   inside that function run the function to update state
+-   useEffect(() => {const time = setTime()})

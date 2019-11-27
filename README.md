@@ -31,4 +31,9 @@ dev mock: cross-env to run offline
 
 # useContext - Application Level State (Redux)
 
--   createContext() takes an object
+-   createContext({}) takes an object
+-   wrap the app in the provider <PlayerContext.Provider value={player}><One /></PlayerContext.Provider>
+-   import {player} from state
+-   in the component `import { PlayerContext } from "./Context";`
+-   `const player = useContext(PlayerContext);`
+-   `return player.firstname`

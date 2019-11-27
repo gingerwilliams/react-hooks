@@ -7,4 +7,4 @@ export const player = {
     email: "gwilliams123@gmail.com"
 };
 
-export const PlayerContext = createContext({}); //<-- reducer + initial value
+export const PlayerContext = createContext({}); //<-- create store  | {} reducer initialState

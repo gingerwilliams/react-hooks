@@ -47,5 +47,6 @@ dev mock: cross-env to run offline
 -   `0` to turn off, `1` is to warn and `2` is to error
 -   `plugings: [ "react-hooks" ]`
 -   look up exact `eslint`... not working
+-   select onChange must have onBlur for tabbing through (A11y)
 
 ! input - two way data binding is not free

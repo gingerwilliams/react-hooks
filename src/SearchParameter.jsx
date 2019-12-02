@@ -1,10 +1,13 @@
 import React, { useState } from "react";
+import { ANIMALS } from "@frontendmasters/pet";
 
 const SearchParams = () => {
     //const location = "Seattle, WA";
-    if (false) {
-        const [location, setLocation] = useState("Seattle, WA");
-    }
+
+    const [location, setLocation] = useState("Seattle, WA");
+    const [animal, setAnimal] = useState("dog");
+
+    console.log(ANIMALS);
 
     console.log("state of location: ", location);
 
@@ -22,6 +25,19 @@ const SearchParams = () => {
                         }}
                         placeholder='Location'
                     />
+                </label>
+                <label htmlFor='animal'>
+                    Animal
+                    <select
+                        id='animal'
+                        value={animal}
+                        onChange={event => setAnimal(e.target.value)}
+                        onBlue={event => setAnimal(e.target.value)}>
+                        <option>All</option>
+                        {ANIMALS.map((animal, index) => (
+                            <option key={index}>{animal}</option>
+                        ))}
+                    </select>
                 </label>
                 <button>Submit</button>
             </form>

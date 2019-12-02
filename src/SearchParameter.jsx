@@ -6,6 +6,8 @@ const SearchParams = () => {
 
     const [location, setLocation] = useState("Seattle, WA");
     const [animal, setAnimal] = useState("dog");
+    const [breed, setBreed] = useState("");
+    const [breeds, setBreeds] = useState([]); //breeds will update
 
     console.log(ANIMALS);
 
@@ -32,10 +34,24 @@ const SearchParams = () => {
                         id='animal'
                         value={animal}
                         onChange={event => setAnimal(e.target.value)}
-                        onBlue={event => setAnimal(e.target.value)}>
+                        onBlur={event => setAnimal(e.target.value)}>
                         <option>All</option>
-                        {ANIMALS.map((animal, index) => (
-                            <option key={index}>{animal}</option>
+                        {ANIMALS.map(animal => (
+                            <option key={animal}>{animal}</option>
+                        ))}
+                    </select>
+                </label>
+                <label htmlFor='breed'>
+                    Breed
+                    <select
+                        id='breed'
+                        value={breed}
+                        onChange={event => setBreed(e.target.value)}
+                        onBlur={event => setBreed(e.target.value)}
+                        disabled={!breeds.length}>
+                        <option>All</option>
+                        {breeds.map(b => (
+                            <option key={b}>{b}</option>
                         ))}
                     </select>
                 </label>

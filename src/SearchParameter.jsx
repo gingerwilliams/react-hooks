@@ -1,13 +1,16 @@
 import React, { useState } from "react";
 import { ANIMALS } from "@frontendmasters/pet";
+import { useDropdown } from "./hooks/use-dropdown";
 
 const SearchParams = () => {
     //const location = "Seattle, WA";
 
     const [location, setLocation] = useState("Seattle, WA");
-    const [animal, setAnimal] = useState("dog");
-    const [breed, setBreed] = useState("");
     const [breeds, setBreeds] = useState([]); //breeds will update
+    // const [animal, setAnimal] = useState("dog");
+    const [animal, AnimalDropdown] = useDropdown("Animal", "dog", ANIMALS);
+    // const [breed, setBreed] = useState("");
+    const [breed, BreedDropdown] = useDropdown("Breed", "", breeds);
 
     console.log(ANIMALS);
 
@@ -28,33 +31,8 @@ const SearchParams = () => {
                         placeholder='Location'
                     />
                 </label>
-                <label htmlFor='animal'>
-                    Animal
-                    <select
-                        id='animal'
-                        value={animal}
-                        onChange={event => setAnimal(e.target.value)}
-                        onBlur={event => setAnimal(e.target.value)}>
-                        <option>All</option>
-                        {ANIMALS.map(animal => (
-                            <option key={animal}>{animal}</option>
-                        ))}
-                    </select>
-                </label>
-                <label htmlFor='breed'>
-                    Breed
-                    <select
-                        id='breed'
-                        value={breed}
-                        onChange={event => setBreed(e.target.value)}
-                        onBlur={event => setBreed(e.target.value)}
-                        disabled={!breeds.length}>
-                        <option>All</option>
-                        {breeds.map(b => (
-                            <option key={b}>{b}</option>
-                        ))}
-                    </select>
-                </label>
+                <AnimalDropdown />
+                <BreedDropdown />
                 <button>Submit</button>
             </form>
         </div>

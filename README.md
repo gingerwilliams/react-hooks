@@ -28,3 +28,12 @@ dev mock: cross-env to run offline
 -   useEffect(() => {})
 -   inside that function run the function to update state
 -   useEffect(() => {const time = setTime()})
+
+# useContext - Application Level State (Redux)
+
+-   createContext({}) takes an object `export const PlayerContext = createContext({})`
+-   wrap the app in the provider <PlayerContext.Provider value={player}><One /></PlayerContext.Provider>
+-   import {player} from state
+-   in the component `import { PlayerContext } from "./Context";`
+-   `const player = useContext(PlayerContext);`
+-   `return player.firstname`

@@ -11,10 +11,12 @@ React Hooks Boilerplate with Context and Parcel
 
 dev mock: cross-env to run offline
 
-## Hooks
+## Hooks Best Practices
 
--   ! hooks cannot be inside of conditionals or loops
+-   Hooks cannot be used in control flow statements
 -   They must be in the same order every time
+-   Never put a hook inside of an if statement
+-   Never put a hook inside of a loop
 
 ## useState
 
@@ -29,7 +31,7 @@ dev mock: cross-env to run offline
 -   inside that function run the function to update state
 -   useEffect(() => {const time = setTime()})
 
-# useContext - Application Level State (Redux)
+## useContext - Application Level State (Redux)
 
 -   createContext({}) takes an object `export const PlayerContext = createContext({})`
 -   wrap the app in the provider <PlayerContext.Provider value={player}><One /></PlayerContext.Provider>
@@ -38,6 +40,12 @@ dev mock: cross-env to run offline
 -   `const player = useContext(PlayerContext);`
 -   `return player.firstname`
 
-# input - two way data binding is not free
+## ESLint for Hooks
 
--   this makes code more maintainable
+-   `npm i -D eslint-plugin-react-hooks`
+-   `rules: { "react-hooks/rules-of-hooks": 2, "react-hooks/exhaustive-deps": 1,}`
+-   `0` to turn off, `1` is to warn and `2` is to error
+-   `plugings: [ "react-hooks" ]`
+-   look up exact `eslint`... not working
+
+! input - two way data binding is not free

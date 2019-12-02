@@ -37,3 +37,7 @@ dev mock: cross-env to run offline
 -   in the component `import { PlayerContext } from "./Context";`
 -   `const player = useContext(PlayerContext);`
 -   `return player.firstname`
+
+# input - two way data binding is not free
+
+-   this makes code more maintainable

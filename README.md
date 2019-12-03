@@ -25,11 +25,16 @@ dev mock: cross-env to run offline
 
 ## useEffect
 
--   start with useState const [time, setTime] = useState(new Date());
--   then useEffect, pass a function as the parameter
--   useEffect(() => {})
--   inside that function run the function to update state
--   useEffect(() => {const time = setTime()})
+-   Takes the place of several lifecycle methods
+    -   componentDidMount
+    -   componentWillUnmount
+    -   componentDidUpdate
+
+1.  start with useState const [time, setTime] = useState(new Date());
+2.  then useEffect, pass a function as the parameter
+3.  useEffect(() => {})
+4.  inside that function run the function to update state
+5.  useEffect(() => {const time = setTime()})
 
 ## useContext - Application Level State (Redux)
 

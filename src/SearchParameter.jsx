@@ -1,5 +1,5 @@
-import React, { useState } from "react";
-import { ANIMALS } from "@frontendmasters/pet";
+import React, { useState, useEffect } from "react";
+import pet, { ANIMALS } from "@frontendmasters/pet";
 import { useDropdown } from "./hooks/use-dropdown";
 
 const SearchParams = () => {
@@ -12,9 +12,10 @@ const SearchParams = () => {
     // const [breed, setBreed] = useState("");
     const [breed, BreedDropdown] = useDropdown("Breed", "", breeds);
 
-    console.log(ANIMALS);
-
-    console.log("state of location: ", location);
+    //Schedules this effect to run. render ui first
+    useEffect(() => {
+        pet.breeds("dogs").then(console.log, console.error);
+    });
 
     return (
         <div className='search-params'>

@@ -4,8 +4,8 @@
 }
 
 body {
-    background-color: #81a69b;
-    background-image: url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-background.png);
+    background-color: #4c6d63;
+    /* background-image: url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-background.png); */
     margin: 0;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -87,9 +87,9 @@ body {
 header > a,
 #root > div > h1 {
     display: inline-block;
-    background-image: url(http://static.frontendmasters.com/resources/2019-05-02-complete-intro-react-v5/image-logo.png);
-    width: 279px;
-    height: 76px;
+    background-image: url(https://coincap.io/static/logos/black.svg);
+    width: 75px;
+    height: 30px;
     overflow: hidden;
     text-indent: -9999px;
 }

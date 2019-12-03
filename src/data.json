@@ -1,0 +1,2882 @@
+{
+    "status": {
+        "timestamp": "2019-12-03T17:51:23.139Z",
+        "error_code": 0,
+        "error_message": null,
+        "elapsed": 15,
+        "credit_count": 1,
+        "notice": null
+    },
+    "data": [
+        {
+            "id": 1,
+            "name": "Bitcoin",
+            "symbol": "BTC",
+            "slug": "bitcoin",
+            "num_market_pairs": 7708,
+            "date_added": "2013-04-28T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 21000000,
+            "circulating_supply": 18081112,
+            "total_supply": 18081112,
+            "platform": null,
+            "cmc_rank": 1,
+            "last_updated": "2019-12-03T17:50:21.000Z",
+            "quote": {
+                "USD": {
+                    "price": 7401.14036366,
+                    "volume_24h": 15227474617.3597,
+                    "percent_change_1h": 0.433632,
+                    "percent_change_24h": 1.36459,
+                    "percent_change_7d": 3.01694,
+                    "market_cap": 133820847843.05719,
+                    "last_updated": "2019-12-03T17:50:21.000Z"
+                }
+            }
+        },
+        {
+            "id": 1027,
+            "name": "Ethereum",
+            "symbol": "ETH",
+            "slug": "ethereum",
+            "num_market_pairs": 5327,
+            "date_added": "2015-08-07T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": null,
+            "circulating_supply": 108785172.8115,
+            "total_supply": 108785172.8115,
+            "platform": null,
+            "cmc_rank": 2,
+            "last_updated": "2019-12-03T17:50:25.000Z",
+            "quote": {
+                "USD": {
+                    "price": 149.778382299,
+                    "volume_24h": 6315238693.79263,
+                    "percent_change_1h": 0.315152,
+                    "percent_change_24h": 1.18032,
+                    "percent_change_7d": 1.4797,
+                    "market_cap": 16293667201.823626,
+                    "last_updated": "2019-12-03T17:50:25.000Z"
+                }
+            }
+        },
+        {
+            "id": 52,
+            "name": "XRP",
+            "symbol": "XRP",
+            "slug": "xrp",
+            "num_market_pairs": 508,
+            "date_added": "2013-08-04T00:00:00.000Z",
+            "tags": [],
+            "max_supply": 100000000000,
+            "circulating_supply": 43285660917,
+            "total_supply": 99991237614,
+            "platform": null,
+            "cmc_rank": 3,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.223056784893,
+                    "volume_24h": 1045044014.29532,
+                    "percent_change_1h": 0.597595,
+                    "percent_change_24h": 1.72903,
+                    "percent_change_7d": 1.42623,
+                    "market_cap": 9655160356.114605,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 825,
+            "name": "Tether",
+            "symbol": "USDT",
+            "slug": "tether",
+            "num_market_pairs": 3921,
+            "date_added": "2015-02-25T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 4108044456.1,
+            "total_supply": 4207771504.46,
+            "platform": {
+                "id": 83,
+                "name": "Omni",
+                "symbol": "OMNI",
+                "slug": "omni",
+                "token_address": "31"
+            },
+            "cmc_rank": 4,
+            "last_updated": "2019-12-03T17:50:22.000Z",
+            "quote": {
+                "USD": {
+                    "price": 1.00957348415,
+                    "volume_24h": 16882274163.8951,
+                    "percent_change_1h": 0.289095,
+                    "percent_change_24h": 0.917725,
+                    "percent_change_7d": -0.0962085,
+                    "market_cap": 4147372754.5879683,
+                    "last_updated": "2019-12-03T17:50:22.000Z"
+                }
+            }
+        },
+        {
+            "id": 1831,
+            "name": "Bitcoin Cash",
+            "symbol": "BCH",
+            "slug": "bitcoin-cash",
+            "num_market_pairs": 440,
+            "date_added": "2017-07-23T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 21000000,
+            "circulating_supply": 18146962.5,
+            "total_supply": 18146962.5,
+            "platform": null,
+            "cmc_rank": 5,
+            "last_updated": "2019-12-03T17:50:07.000Z",
+            "quote": {
+                "USD": {
+                    "price": 215.871511631,
+                    "volume_24h": 1066236510.92463,
+                    "percent_change_1h": 0.32995,
+                    "percent_change_24h": 0.76361,
+                    "percent_change_7d": 1.62644,
+                    "market_cap": 3917412226.3860707,
+                    "last_updated": "2019-12-03T17:50:07.000Z"
+                }
+            }
+        },
+        {
+            "id": 2,
+            "name": "Litecoin",
+            "symbol": "LTC",
+            "slug": "litecoin",
+            "num_market_pairs": 557,
+            "date_added": "2013-04-28T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 84000000,
+            "circulating_supply": 63762319.2668217,
+            "total_supply": 63762319.2668217,
+            "platform": null,
+            "cmc_rank": 6,
+            "last_updated": "2019-12-03T17:50:06.000Z",
+            "quote": {
+                "USD": {
+                    "price": 46.374236286,
+                    "volume_24h": 2568152207.42365,
+                    "percent_change_1h": 0.0708768,
+                    "percent_change_24h": 1.61622,
+                    "percent_change_7d": -1.34825,
+                    "market_cap": 2956928859.8229594,
+                    "last_updated": "2019-12-03T17:50:06.000Z"
+                }
+            }
+        },
+        {
+            "id": 1765,
+            "name": "EOS",
+            "symbol": "EOS",
+            "slug": "eos",
+            "num_market_pairs": 394,
+            "date_added": "2017-07-01T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 942799142.4261,
+            "total_supply": 1039499153.9182,
+            "platform": null,
+            "cmc_rank": 7,
+            "last_updated": "2019-12-03T17:50:07.000Z",
+            "quote": {
+                "USD": {
+                    "price": 2.73868151914,
+                    "volume_24h": 1373880064.72571,
+                    "percent_change_1h": 0.361616,
+                    "percent_change_24h": 2.41911,
+                    "percent_change_7d": 4.52627,
+                    "market_cap": 2582026587.6234007,
+                    "last_updated": "2019-12-03T17:50:07.000Z"
+                }
+            }
+        },
+        {
+            "id": 1839,
+            "name": "Binance Coin",
+            "symbol": "BNB",
+            "slug": "binance-coin",
+            "num_market_pairs": 282,
+            "date_added": "2017-07-25T00:00:00.000Z",
+            "tags": [],
+            "max_supply": 187536713,
+            "circulating_supply": 155536713,
+            "total_supply": 187536713,
+            "platform": null,
+            "cmc_rank": 8,
+            "last_updated": "2019-12-03T17:50:05.000Z",
+            "quote": {
+                "USD": {
+                    "price": 15.4968396569,
+                    "volume_24h": 209559948.620435,
+                    "percent_change_1h": 0.549851,
+                    "percent_change_24h": 1.80739,
+                    "percent_change_7d": 0.0989861,
+                    "market_cap": 2410327502.122274,
+                    "last_updated": "2019-12-03T17:50:05.000Z"
+                }
+            }
+        },
+        {
+            "id": 3602,
+            "name": "Bitcoin SV",
+            "symbol": "BSV",
+            "slug": "bitcoin-sv",
+            "num_market_pairs": 154,
+            "date_added": "2018-11-09T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 21000000,
+            "circulating_supply": 18068415,
+            "total_supply": 18068415,
+            "platform": null,
+            "cmc_rank": 9,
+            "last_updated": "2019-12-03T17:50:11.000Z",
+            "quote": {
+                "USD": {
+                    "price": 97.8920472035,
+                    "volume_24h": 410005522.636931,
+                    "percent_change_1h": 0.337034,
+                    "percent_change_24h": -2.32548,
+                    "percent_change_7d": -8.31705,
+                    "market_cap": 1768754134.0724275,
+                    "last_updated": "2019-12-03T17:50:11.000Z"
+                }
+            }
+        },
+        {
+            "id": 512,
+            "name": "Stellar",
+            "symbol": "XLM",
+            "slug": "stellar",
+            "num_market_pairs": 306,
+            "date_added": "2014-08-05T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 20054779553.7,
+            "total_supply": 50000000000,
+            "platform": null,
+            "cmc_rank": 10,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0565087992147,
+                    "volume_24h": 183286774.032886,
+                    "percent_change_1h": 0.536752,
+                    "percent_change_24h": 0.548743,
+                    "percent_change_7d": -2.37328,
+                    "market_cap": 1133271511.0951042,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 1958,
+            "name": "TRON",
+            "symbol": "TRX",
+            "slug": "tron",
+            "num_market_pairs": 300,
+            "date_added": "2017-09-13T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": null,
+            "circulating_supply": 66682072191.4,
+            "total_supply": 99281283754.3,
+            "platform": null,
+            "cmc_rank": 11,
+            "last_updated": "2019-12-03T17:50:06.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0155684688494,
+                    "volume_24h": 898395714.87509,
+                    "percent_change_1h": 0.418591,
+                    "percent_change_24h": 2.25192,
+                    "percent_change_7d": 2.72178,
+                    "market_cap": 1038137763.725253,
+                    "last_updated": "2019-12-03T17:50:06.000Z"
+                }
+            }
+        },
+        {
+            "id": 2010,
+            "name": "Cardano",
+            "symbol": "ADA",
+            "slug": "cardano",
+            "num_market_pairs": 118,
+            "date_added": "2017-10-01T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 45000000000,
+            "circulating_supply": 25927070538,
+            "total_supply": 31112483745,
+            "platform": null,
+            "cmc_rank": 12,
+            "last_updated": "2019-12-03T17:50:05.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0386994161132,
+                    "volume_24h": 34700883.270919,
+                    "percent_change_1h": 0.632373,
+                    "percent_change_24h": 2.18196,
+                    "percent_change_7d": 5.91248,
+                    "market_cap": 1003362491.3463502,
+                    "last_updated": "2019-12-03T17:50:05.000Z"
+                }
+            }
+        },
+        {
+            "id": 328,
+            "name": "Monero",
+            "symbol": "XMR",
+            "slug": "monero",
+            "num_market_pairs": 129,
+            "date_added": "2014-05-21T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": null,
+            "circulating_supply": 17337378.2489898,
+            "total_supply": 17337378.2489898,
+            "platform": null,
+            "cmc_rank": 13,
+            "last_updated": "2019-12-03T17:50:02.000Z",
+            "quote": {
+                "USD": {
+                    "price": 54.6367670438,
+                    "volume_24h": 147994451.531686,
+                    "percent_change_1h": 0.113307,
+                    "percent_change_24h": 1.7144,
+                    "percent_change_7d": 5.86898,
+                    "market_cap": 947258296.540301,
+                    "last_updated": "2019-12-03T17:50:02.000Z"
+                }
+            }
+        },
+        {
+            "id": 3957,
+            "name": "UNUS SED LEO",
+            "symbol": "LEO",
+            "slug": "unus-sed-leo",
+            "num_market_pairs": 26,
+            "date_added": "2019-05-21T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 999498892.9,
+            "total_supply": 999498892.9,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x2af5d2ad76741191d15dfe7bf6ac92d4bd912ca3"
+            },
+            "cmc_rank": 14,
+            "last_updated": "2019-12-03T17:50:11.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.923182155427,
+                    "volume_24h": 7471884.95379552,
+                    "percent_change_1h": 0.40539,
+                    "percent_change_24h": 0.79352,
+                    "percent_change_7d": 1.25394,
+                    "market_cap": 922719542.2943223,
+                    "last_updated": "2019-12-03T17:50:11.000Z"
+                }
+            }
+        },
+        {
+            "id": 2011,
+            "name": "Tezos",
+            "symbol": "XTZ",
+            "slug": "tezos",
+            "num_market_pairs": 55,
+            "date_added": "2017-10-02T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 660373611.97278,
+            "total_supply": 801312599.488106,
+            "platform": null,
+            "cmc_rank": 15,
+            "last_updated": "2019-12-03T17:50:04.000Z",
+            "quote": {
+                "USD": {
+                    "price": 1.28550725608,
+                    "volume_24h": 37194480.4660454,
+                    "percent_change_1h": -0.508577,
+                    "percent_change_24h": 5.16279,
+                    "percent_change_7d": 2.87307,
+                    "market_cap": 848915069.914767,
+                    "last_updated": "2019-12-03T17:50:04.000Z"
+                }
+            }
+        },
+        {
+            "id": 1975,
+            "name": "Chainlink",
+            "symbol": "LINK",
+            "slug": "chainlink",
+            "num_market_pairs": 120,
+            "date_added": "2017-09-20T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 350000000,
+            "total_supply": 1000000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x514910771af9ca656af840dff83e8264ecf986ca"
+            },
+            "cmc_rank": 16,
+            "last_updated": "2019-12-03T17:50:04.000Z",
+            "quote": {
+                "USD": {
+                    "price": 2.1792390641,
+                    "volume_24h": 114153427.86249,
+                    "percent_change_1h": 0.0269454,
+                    "percent_change_24h": 4.84428,
+                    "percent_change_7d": -2.99157,
+                    "market_cap": 762733672.435,
+                    "last_updated": "2019-12-03T17:50:04.000Z"
+                }
+            }
+        },
+        {
+            "id": 2502,
+            "name": "Huobi Token",
+            "symbol": "HT",
+            "slug": "huobi-token",
+            "num_market_pairs": 127,
+            "date_added": "2018-02-03T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 241284046.971921,
+            "total_supply": 500000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x6f259637dcd74c767781e37bc6133cd6a68aa161"
+            },
+            "cmc_rank": 17,
+            "last_updated": "2019-12-03T17:50:06.000Z",
+            "quote": {
+                "USD": {
+                    "price": 3.0051093246,
+                    "volume_24h": 162160334.302973,
+                    "percent_change_1h": 0.346759,
+                    "percent_change_24h": 2.54794,
+                    "percent_change_7d": 17.3979,
+                    "market_cap": 725084939.4325441,
+                    "last_updated": "2019-12-03T17:50:06.000Z"
+                }
+            }
+        },
+        {
+            "id": 3794,
+            "name": "Cosmos",
+            "symbol": "ATOM",
+            "slug": "cosmos",
+            "num_market_pairs": 99,
+            "date_added": "2019-03-14T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 190688439.2,
+            "total_supply": 237928230.821588,
+            "platform": null,
+            "cmc_rank": 18,
+            "last_updated": "2019-12-03T17:50:11.000Z",
+            "quote": {
+                "USD": {
+                    "price": 3.76041363499,
+                    "volume_24h": 146780272.424076,
+                    "percent_change_1h": 0.757552,
+                    "percent_change_24h": 2.78655,
+                    "percent_change_7d": 6.3801,
+                    "market_cap": 717067406.8026415,
+                    "last_updated": "2019-12-03T17:50:11.000Z"
+                }
+            }
+        },
+        {
+            "id": 1376,
+            "name": "NEO",
+            "symbol": "NEO",
+            "slug": "neo",
+            "num_market_pairs": 226,
+            "date_added": "2016-09-08T00:00:00.000Z",
+            "tags": [],
+            "max_supply": 100000000,
+            "circulating_supply": 70538831,
+            "total_supply": 100000000,
+            "platform": null,
+            "cmc_rank": 19,
+            "last_updated": "2019-12-03T17:50:04.000Z",
+            "quote": {
+                "USD": {
+                    "price": 9.18166834286,
+                    "volume_24h": 324394170.706813,
+                    "percent_change_1h": 0.646203,
+                    "percent_change_24h": 2.47617,
+                    "percent_change_7d": 0.0549109,
+                    "market_cap": 647664151.5350516,
+                    "last_updated": "2019-12-03T17:50:04.000Z"
+                }
+            }
+        },
+        {
+            "id": 1720,
+            "name": "IOTA",
+            "symbol": "MIOTA",
+            "slug": "iota",
+            "num_market_pairs": 48,
+            "date_added": "2017-06-13T00:00:00.000Z",
+            "tags": [],
+            "max_supply": 2779530283,
+            "circulating_supply": 2779530283,
+            "total_supply": 2779530283,
+            "platform": null,
+            "cmc_rank": 20,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.205470622357,
+                    "volume_24h": 7719399.50249631,
+                    "percent_change_1h": 0.367907,
+                    "percent_change_24h": -0.0199379,
+                    "percent_change_7d": -1.73811,
+                    "market_cap": 571111817.1081383,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 1518,
+            "name": "Maker",
+            "symbol": "MKR",
+            "slug": "maker",
+            "num_market_pairs": 70,
+            "date_added": "2017-01-29T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 1000000,
+            "total_supply": 1000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x9f8f72aa9304c8b593d555f12ef6589cc3a579a2"
+            },
+            "cmc_rank": 21,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 547.638798749,
+                    "volume_24h": 4868363.60530299,
+                    "percent_change_1h": -3.33272,
+                    "percent_change_24h": 3.61158,
+                    "percent_change_7d": 3.91623,
+                    "market_cap": 547638798.749,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 131,
+            "name": "Dash",
+            "symbol": "DASH",
+            "slug": "dash",
+            "num_market_pairs": 271,
+            "date_added": "2014-02-14T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 18900000,
+            "circulating_supply": 9191288.4887061,
+            "total_supply": 9191288.4887061,
+            "platform": null,
+            "cmc_rank": 22,
+            "last_updated": "2019-12-03T17:50:04.000Z",
+            "quote": {
+                "USD": {
+                    "price": 52.2257256282,
+                    "volume_24h": 237191365.454866,
+                    "percent_change_1h": 0.418026,
+                    "percent_change_24h": 0.338355,
+                    "percent_change_7d": 2.66592,
+                    "market_cap": 480021710.7807979,
+                    "last_updated": "2019-12-03T17:50:04.000Z"
+                }
+            }
+        },
+        {
+            "id": 1321,
+            "name": "Ethereum Classic",
+            "symbol": "ETC",
+            "slug": "ethereum-classic",
+            "num_market_pairs": 220,
+            "date_added": "2016-07-24T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 210000000,
+            "circulating_supply": 115579082,
+            "total_supply": 115579082,
+            "platform": null,
+            "cmc_rank": 23,
+            "last_updated": "2019-12-03T17:50:04.000Z",
+            "quote": {
+                "USD": {
+                    "price": 3.8995529729,
+                    "volume_24h": 442107241.145745,
+                    "percent_change_1h": 0.457673,
+                    "percent_change_24h": 1.47486,
+                    "percent_change_7d": 0.502753,
+                    "market_cap": 450706752.8181529,
+                    "last_updated": "2019-12-03T17:50:04.000Z"
+                }
+            }
+        },
+        {
+            "id": 3408,
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "slug": "usd-coin",
+            "num_market_pairs": 182,
+            "date_added": "2018-10-08T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 446813817.018108,
+            "total_supply": 449528704.74,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            },
+            "cmc_rank": 24,
+            "last_updated": "2019-12-03T17:50:12.000Z",
+            "quote": {
+                "USD": {
+                    "price": 1.00864231527,
+                    "volume_24h": 224533791.896736,
+                    "percent_change_1h": 0.237359,
+                    "percent_change_24h": 1.04378,
+                    "percent_change_7d": -0.0278452,
+                    "market_cap": 450675322.89177054,
+                    "last_updated": "2019-12-03T17:50:12.000Z"
+                }
+            }
+        },
+        {
+            "id": 2566,
+            "name": "Ontology",
+            "symbol": "ONT",
+            "slug": "ontology",
+            "num_market_pairs": 106,
+            "date_added": "2018-03-08T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 637351170,
+            "total_supply": 1000000000,
+            "platform": null,
+            "cmc_rank": 25,
+            "last_updated": "2019-12-03T17:50:07.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.626975626057,
+                    "volume_24h": 58115389.3278707,
+                    "percent_change_1h": 0.959224,
+                    "percent_change_24h": 1.95123,
+                    "percent_change_7d": 0.536865,
+                    "market_cap": 399603648.8289114,
+                    "last_updated": "2019-12-03T17:50:07.000Z"
+                }
+            }
+        },
+        {
+            "id": 3077,
+            "name": "VeChain",
+            "symbol": "VET",
+            "slug": "vechain",
+            "num_market_pairs": 85,
+            "date_added": "2017-08-22T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 55454734800,
+            "total_supply": 86712634466,
+            "platform": null,
+            "cmc_rank": 26,
+            "last_updated": "2019-12-03T17:50:08.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.00699797363229,
+                    "volume_24h": 161223027.409143,
+                    "percent_change_1h": 0.499712,
+                    "percent_change_24h": -4.30758,
+                    "percent_change_7d": 14.5331,
+                    "market_cap": 388070771.9160347,
+                    "last_updated": "2019-12-03T17:50:08.000Z"
+                }
+            }
+        },
+        {
+            "id": 3296,
+            "name": "MINDOL",
+            "symbol": "MIN",
+            "slug": "mindol",
+            "num_market_pairs": 13,
+            "date_added": "2019-03-29T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 141690716,
+            "total_supply": 240000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x5d64d850c8368008afb39224e92ad0dceff3cf38"
+            },
+            "cmc_rank": 27,
+            "last_updated": "2019-12-03T17:50:09.000Z",
+            "quote": {
+                "USD": {
+                    "price": 2.65706198248,
+                    "volume_24h": 5525673.14440524,
+                    "percent_change_1h": 12.7772,
+                    "percent_change_24h": 8.95241,
+                    "percent_change_7d": 18.157,
+                    "market_cap": 376481014.7539707,
+                    "last_updated": "2019-12-03T17:50:09.000Z"
+                }
+            }
+        },
+        {
+            "id": 873,
+            "name": "NEM",
+            "symbol": "XEM",
+            "slug": "nem",
+            "num_market_pairs": 96,
+            "date_added": "2015-04-01T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 8999999999,
+            "total_supply": 8999999999,
+            "platform": null,
+            "cmc_rank": 28,
+            "last_updated": "2019-12-03T17:50:02.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0354492753108,
+                    "volume_24h": 29441498.3678285,
+                    "percent_change_1h": 0.239486,
+                    "percent_change_24h": -0.696658,
+                    "percent_change_7d": -1.61291,
+                    "market_cap": 319043477.7617507,
+                    "last_updated": "2019-12-03T17:50:02.000Z"
+                }
+            }
+        },
+        {
+            "id": 3635,
+            "name": "Crypto.com Coin",
+            "symbol": "CRO",
+            "slug": "crypto-com-coin",
+            "num_market_pairs": 38,
+            "date_added": "2018-12-14T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 12083105022.8311,
+            "total_supply": 100000000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xa0b73e1ff0b80914ab6fe0444e65848c4c34450b"
+            },
+            "cmc_rank": 29,
+            "last_updated": "2019-12-03T17:50:09.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0263732828289,
+                    "volume_24h": 3929040.60712762,
+                    "percent_change_1h": 0.242378,
+                    "percent_change_24h": 2.106,
+                    "percent_change_7d": -4.2317,
+                    "market_cap": 318671146.21842676,
+                    "last_updated": "2019-12-03T17:50:09.000Z"
+                }
+            }
+        },
+        {
+            "id": 74,
+            "name": "Dogecoin",
+            "symbol": "DOGE",
+            "slug": "dogecoin",
+            "num_market_pairs": 287,
+            "date_added": "2013-12-15T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": null,
+            "circulating_supply": 122313303169.548,
+            "total_supply": 122313303169.548,
+            "platform": null,
+            "cmc_rank": 30,
+            "last_updated": "2019-12-03T17:50:04.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.00223248070938,
+                    "volume_24h": 64567808.9348353,
+                    "percent_change_1h": 0.651115,
+                    "percent_change_24h": 0.678533,
+                    "percent_change_7d": -2.22395,
+                    "market_cap": 273062089.82656354,
+                    "last_updated": "2019-12-03T17:50:04.000Z"
+                }
+            }
+        },
+        {
+            "id": 1697,
+            "name": "Basic Attention Token",
+            "symbol": "BAT",
+            "slug": "basic-attention-token",
+            "num_market_pairs": 161,
+            "date_added": "2017-06-01T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 1356449188.9763,
+            "total_supply": 1500000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x0d8775f648430679a709e98d2b0cb6250d2887ef"
+            },
+            "cmc_rank": 31,
+            "last_updated": "2019-12-03T17:50:04.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.196823722102,
+                    "volume_24h": 53614691.4885257,
+                    "percent_change_1h": 0.355985,
+                    "percent_change_24h": 4.27856,
+                    "percent_change_7d": -5.07321,
+                    "market_cap": 266981378.21655455,
+                    "last_updated": "2019-12-03T17:50:04.000Z"
+                }
+            }
+        },
+        {
+            "id": 3330,
+            "name": "Paxos Standard",
+            "symbol": "PAX",
+            "slug": "paxos-standard",
+            "num_market_pairs": 96,
+            "date_added": "2018-09-27T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 242158080.279096,
+            "total_supply": 242158161.4,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x8e870d67f660d95d5be530380d0ec0bd388289e1"
+            },
+            "cmc_rank": 32,
+            "last_updated": "2019-12-03T17:50:10.000Z",
+            "quote": {
+                "USD": {
+                    "price": 1.00886063245,
+                    "volume_24h": 136359959.0153,
+                    "percent_change_1h": 0.231036,
+                    "percent_change_24h": 0.836231,
+                    "percent_change_7d": -0.19635,
+                    "market_cap": 244303754.02324668,
+                    "last_updated": "2019-12-03T17:50:10.000Z"
+                }
+            }
+        },
+        {
+            "id": 1437,
+            "name": "Zcash",
+            "symbol": "ZEC",
+            "slug": "zcash",
+            "num_market_pairs": 223,
+            "date_added": "2016-10-29T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": null,
+            "circulating_supply": 7986281.25,
+            "total_supply": 7986281.25,
+            "platform": null,
+            "cmc_rank": 33,
+            "last_updated": "2019-12-03T17:50:06.000Z",
+            "quote": {
+                "USD": {
+                    "price": 27.8349618055,
+                    "volume_24h": 86280272.4342818,
+                    "percent_change_1h": 0.501019,
+                    "percent_change_24h": 1.16204,
+                    "percent_change_7d": -0.299345,
+                    "market_cap": 222297833.5617308,
+                    "last_updated": "2019-12-03T17:50:06.000Z"
+                }
+            }
+        },
+        {
+            "id": 2586,
+            "name": "Synthetix Network Token",
+            "symbol": "SNX",
+            "slug": "synthetix-network-token",
+            "num_market_pairs": 7,
+            "date_added": "2018-03-14T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 148341865.825791,
+            "total_supply": 154807692.307692,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xc011a72400e58ecd99ee497cf89e3775d4bd732f"
+            },
+            "cmc_rank": 34,
+            "last_updated": "2019-12-03T17:50:05.000Z",
+            "quote": {
+                "USD": {
+                    "price": 1.41852268336,
+                    "volume_24h": 389330.701143288,
+                    "percent_change_1h": 0.755176,
+                    "percent_change_24h": 18.0343,
+                    "percent_change_7d": 4.57789,
+                    "market_cap": 210426301.56583014,
+                    "last_updated": "2019-12-03T17:50:05.000Z"
+                }
+            }
+        },
+        {
+            "id": 3662,
+            "name": "HedgeTrade",
+            "symbol": "HEDG",
+            "slug": "hedgetrade",
+            "num_market_pairs": 8,
+            "date_added": "2019-01-03T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 288114855.057208,
+            "total_supply": 1000000000.05,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xF1290473E210b2108A85237fbCd7b6eb42Cc654F"
+            },
+            "cmc_rank": 35,
+            "last_updated": "2019-12-03T17:50:10.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.709416753237,
+                    "volume_24h": 341862.488281504,
+                    "percent_change_1h": 0.454269,
+                    "percent_change_24h": 2.34614,
+                    "percent_change_7d": 15.0682,
+                    "market_cap": 204393505.03403336,
+                    "last_updated": "2019-12-03T17:50:10.000Z"
+                }
+            }
+        },
+        {
+            "id": 1168,
+            "name": "Decred",
+            "symbol": "DCR",
+            "slug": "decred",
+            "num_market_pairs": 47,
+            "date_added": "2016-02-10T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 21000000,
+            "circulating_supply": 10761702.5537884,
+            "total_supply": 10761702.5537884,
+            "platform": null,
+            "cmc_rank": 36,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 18.7316350484,
+                    "volume_24h": 6895597.38866034,
+                    "percent_change_1h": 0.521491,
+                    "percent_change_24h": -2.1994,
+                    "percent_change_7d": 10.2978,
+                    "market_cap": 201584284.7369986,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 1684,
+            "name": "Qtum",
+            "symbol": "QTUM",
+            "slug": "qtum",
+            "num_market_pairs": 178,
+            "date_added": "2017-05-24T00:00:00.000Z",
+            "tags": [],
+            "max_supply": 107822406,
+            "circulating_supply": 96209160.0484598,
+            "total_supply": 101959180,
+            "platform": null,
+            "cmc_rank": 37,
+            "last_updated": "2019-12-03T17:50:04.000Z",
+            "quote": {
+                "USD": {
+                    "price": 1.78002741147,
+                    "volume_24h": 251277114.329911,
+                    "percent_change_1h": 0.702066,
+                    "percent_change_24h": 2.04169,
+                    "percent_change_7d": 7.58622,
+                    "market_cap": 171254942.12076285,
+                    "last_updated": "2019-12-03T17:50:04.000Z"
+                }
+            }
+        },
+        {
+            "id": 2563,
+            "name": "TrueUSD",
+            "symbol": "TUSD",
+            "slug": "trueusd",
+            "num_market_pairs": 147,
+            "date_added": "2018-03-06T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 157049703,
+            "total_supply": 157049703,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x0000000000085d4780B73119b644AE5ecd22b376"
+            },
+            "cmc_rank": 38,
+            "last_updated": "2019-12-03T17:50:07.000Z",
+            "quote": {
+                "USD": {
+                    "price": 1.00449743445,
+                    "volume_24h": 157090392.793584,
+                    "percent_change_1h": 0.295899,
+                    "percent_change_24h": 0.784389,
+                    "percent_change_7d": -0.596131,
+                    "market_cap": 157756023.74463445,
+                    "last_updated": "2019-12-03T17:50:07.000Z"
+                }
+            }
+        },
+        {
+            "id": 1896,
+            "name": "0x",
+            "symbol": "ZRX",
+            "slug": "0x",
+            "num_market_pairs": 175,
+            "date_added": "2017-08-16T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 602160071.148669,
+            "total_supply": 1000000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xe41d2489571d322189246dafa5ebde1f4699f498"
+            },
+            "cmc_rank": 39,
+            "last_updated": "2019-12-03T17:50:04.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.249334508314,
+                    "volume_24h": 14007975.390719,
+                    "percent_change_1h": 0.0366462,
+                    "percent_change_24h": -0.575879,
+                    "percent_change_7d": 1.31385,
+                    "market_cap": 150139285.26617664,
+                    "last_updated": "2019-12-03T17:50:04.000Z"
+                }
+            }
+        },
+        {
+            "id": 2585,
+            "name": "Centrality",
+            "symbol": "CENNZ",
+            "slug": "centrality",
+            "num_market_pairs": 2,
+            "date_added": "2018-03-13T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 1069176371.64951,
+            "total_supply": 1200000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x1122b6a0e00dce0563082b6e2953f3a943855c1f"
+            },
+            "cmc_rank": 40,
+            "last_updated": "2019-12-03T17:50:05.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.138405487388,
+                    "volume_24h": 458006.095388069,
+                    "percent_change_1h": 0.352866,
+                    "percent_change_24h": 1.29613,
+                    "percent_change_7d": -0.111948,
+                    "market_cap": 147979876.82188386,
+                    "last_updated": "2019-12-03T17:50:05.000Z"
+                }
+            }
+        },
+        {
+            "id": 2577,
+            "name": "Ravencoin",
+            "symbol": "RVN",
+            "slug": "ravencoin",
+            "num_market_pairs": 45,
+            "date_added": "2018-03-10T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 21000000000,
+            "circulating_supply": 4989185000,
+            "total_supply": 4989185000,
+            "platform": null,
+            "cmc_rank": 41,
+            "last_updated": "2019-12-03T17:50:07.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0262586348415,
+                    "volume_24h": 41111264.3641951,
+                    "percent_change_1h": -1.54716,
+                    "percent_change_24h": 17.3862,
+                    "percent_change_7d": 18.3643,
+                    "market_cap": 131009187.07168919,
+                    "last_updated": "2019-12-03T17:50:07.000Z"
+                }
+            }
+        },
+        {
+            "id": 4030,
+            "name": "Algorand",
+            "symbol": "ALGO",
+            "slug": "algorand",
+            "num_market_pairs": 60,
+            "date_added": "2019-06-20T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": null,
+            "circulating_supply": 453766095.880278,
+            "total_supply": 2985037938.88028,
+            "platform": null,
+            "cmc_rank": 42,
+            "last_updated": "2019-12-03T17:50:12.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.284664309448,
+                    "volume_24h": 123455091.107654,
+                    "percent_change_1h": 0.436722,
+                    "percent_change_24h": 3.77824,
+                    "percent_change_7d": 31.1968,
+                    "market_cap": 129171012.33467428,
+                    "last_updated": "2019-12-03T17:50:12.000Z"
+                }
+            }
+        },
+        {
+            "id": 2682,
+            "name": "Holo",
+            "symbol": "HOT",
+            "slug": "holo",
+            "num_market_pairs": 62,
+            "date_added": "2018-04-29T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 161496951785.847,
+            "total_supply": 177619433541.141,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x6c6ee5e31d828de241282b9606c8e98ea48526e2"
+            },
+            "cmc_rank": 43,
+            "last_updated": "2019-12-03T17:50:07.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.000784128618525,
+                    "volume_24h": 5844778.43551211,
+                    "percent_change_1h": 0.056136,
+                    "percent_change_24h": 0.673726,
+                    "percent_change_7d": -3.06455,
+                    "market_cap": 126634381.69983473,
+                    "last_updated": "2019-12-03T17:50:07.000Z"
+                }
+            }
+        },
+        {
+            "id": 2830,
+            "name": "Seele",
+            "symbol": "SEELE",
+            "slug": "seele",
+            "num_market_pairs": 14,
+            "date_added": "2018-05-31T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 699562206.289478,
+            "total_supply": 1000000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xb1eef147028e9f480dbc5ccaa3277d417d1b85f0"
+            },
+            "cmc_rank": 44,
+            "last_updated": "2019-12-03T17:50:06.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.16507218254,
+                    "volume_24h": 45492747.3355659,
+                    "percent_change_1h": 1.3098,
+                    "percent_change_24h": 11.2562,
+                    "percent_change_7d": 3.76138,
+                    "market_cap": 115478260.21470185,
+                    "last_updated": "2019-12-03T17:50:06.000Z"
+                }
+            }
+        },
+        {
+            "id": 1104,
+            "name": "Augur",
+            "symbol": "REP",
+            "slug": "augur",
+            "num_market_pairs": 67,
+            "date_added": "2015-10-27T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 11000000,
+            "total_supply": 11000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x1985365e9f78359a9b6ad760e32412f4a445e862"
+            },
+            "cmc_rank": 45,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 10.4426924807,
+                    "volume_24h": 7308848.45239239,
+                    "percent_change_1h": 0.0294789,
+                    "percent_change_24h": 2.04655,
+                    "percent_change_7d": -2.78281,
+                    "market_cap": 114869617.2877,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 1567,
+            "name": "Nano",
+            "symbol": "NANO",
+            "slug": "nano",
+            "num_market_pairs": 50,
+            "date_added": "2017-03-06T00:00:00.000Z",
+            "tags": [],
+            "max_supply": 133248297.197,
+            "circulating_supply": 133248297.197,
+            "total_supply": 133248297.197,
+            "platform": null,
+            "cmc_rank": 46,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.847512268937,
+                    "volume_24h": 2056962.12407673,
+                    "percent_change_1h": 0.182341,
+                    "percent_change_24h": 1.21475,
+                    "percent_change_7d": 6.75916,
+                    "market_cap": 112929566.68942118,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 2083,
+            "name": "Bitcoin Gold",
+            "symbol": "BTG",
+            "slug": "bitcoin-gold",
+            "num_market_pairs": 84,
+            "date_added": "2017-10-23T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 21000000,
+            "circulating_supply": 17513923.589,
+            "total_supply": 17513923.589,
+            "platform": null,
+            "cmc_rank": 47,
+            "last_updated": "2019-12-03T17:50:04.000Z",
+            "quote": {
+                "USD": {
+                    "price": 6.0653431034,
+                    "volume_24h": 14159867.1580377,
+                    "percent_change_1h": 0.238941,
+                    "percent_change_24h": -1.0189,
+                    "percent_change_7d": -2.2501,
+                    "market_cap": 106227955.65401573,
+                    "last_updated": "2019-12-03T17:50:04.000Z"
+                }
+            }
+        },
+        {
+            "id": 1808,
+            "name": "OmiseGO",
+            "symbol": "OMG",
+            "slug": "omisego",
+            "num_market_pairs": 203,
+            "date_added": "2017-07-14T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 140245398.245133,
+            "total_supply": 140245398.245133,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xd26114cd6EE289AccF82350c8d8487fedB8A0C07"
+            },
+            "cmc_rank": 48,
+            "last_updated": "2019-12-03T17:50:04.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.741607961737,
+                    "volume_24h": 38468039.6939075,
+                    "percent_change_1h": 0.337587,
+                    "percent_change_24h": 0.622343,
+                    "percent_change_7d": -0.0530003,
+                    "market_cap": 104007103.93556693,
+                    "last_updated": "2019-12-03T17:50:04.000Z"
+                }
+            }
+        },
+        {
+            "id": 3437,
+            "name": "ABBC Coin",
+            "symbol": "ABBC",
+            "slug": "abbc-coin",
+            "num_market_pairs": 39,
+            "date_added": "2018-10-12T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": null,
+            "circulating_supply": 556626634.357622,
+            "total_supply": 1004488460.0178,
+            "platform": null,
+            "cmc_rank": 49,
+            "last_updated": "2019-12-03T17:50:09.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.173604356154,
+                    "volume_24h": 47752234.2095603,
+                    "percent_change_1h": 0.48898,
+                    "percent_change_24h": -0.150174,
+                    "percent_change_7d": -4.30421,
+                    "market_cap": 96632808.47582294,
+                    "last_updated": "2019-12-03T17:50:09.000Z"
+                }
+            }
+        },
+        {
+            "id": 3704,
+            "name": "V Systems",
+            "symbol": "VSYS",
+            "slug": "v-systems",
+            "num_market_pairs": 33,
+            "date_added": "2019-03-05T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 1866214536,
+            "total_supply": 3781073000,
+            "platform": null,
+            "cmc_rank": 50,
+            "last_updated": "2019-12-03T17:50:10.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0511462188469,
+                    "volume_24h": 2154023.48582891,
+                    "percent_change_1h": 0.0938717,
+                    "percent_change_24h": 0.889956,
+                    "percent_change_7d": 2.92682,
+                    "market_cap": 95449817.07352194,
+                    "last_updated": "2019-12-03T17:50:10.000Z"
+                }
+            }
+        },
+        {
+            "id": 3351,
+            "name": "ZB",
+            "symbol": "ZB",
+            "slug": "zb",
+            "num_market_pairs": 10,
+            "date_added": "2018-09-27T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 463288810,
+            "total_supply": 2100000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xbd0793332e9fb844a52a205a233ef27a5b34b927"
+            },
+            "cmc_rank": 51,
+            "last_updated": "2019-12-03T17:50:08.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.198887614003,
+                    "volume_24h": 228363293.492674,
+                    "percent_change_1h": 0.319622,
+                    "percent_change_24h": 4.4028,
+                    "percent_change_7d": 4.8924,
+                    "market_cap": 92142406.01518922,
+                    "last_updated": "2019-12-03T17:50:08.000Z"
+                }
+            }
+        },
+        {
+            "id": 109,
+            "name": "DigiByte",
+            "symbol": "DGB",
+            "slug": "digibyte",
+            "num_market_pairs": 78,
+            "date_added": "2014-02-06T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 21000000000,
+            "circulating_supply": 12559140472.2494,
+            "total_supply": 12559140472.2494,
+            "platform": null,
+            "cmc_rank": 52,
+            "last_updated": "2019-12-03T17:50:01.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.00670547705509,
+                    "volume_24h": 1140310.56249032,
+                    "percent_change_1h": 0.16249,
+                    "percent_change_24h": 2.05137,
+                    "percent_change_7d": 3.36839,
+                    "market_cap": 84215028.26832053,
+                    "last_updated": "2019-12-03T17:50:01.000Z"
+                }
+            }
+        },
+        {
+            "id": 1521,
+            "name": "Komodo",
+            "symbol": "KMD",
+            "slug": "komodo",
+            "num_market_pairs": 23,
+            "date_added": "2017-02-05T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 200000000,
+            "circulating_supply": 117274605.69788,
+            "total_supply": 117274605.69788,
+            "platform": null,
+            "cmc_rank": 53,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.706037102419,
+                    "volume_24h": 5891582.29602713,
+                    "percent_change_1h": -2.5499,
+                    "percent_change_24h": 3.95455,
+                    "percent_change_7d": 1.17324,
+                    "market_cap": 82800222.79426193,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 4195,
+            "name": "FTX Token",
+            "symbol": "FTT",
+            "slug": "ftx-token",
+            "num_market_pairs": 13,
+            "date_added": "2019-07-31T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 52398179.9327723,
+            "total_supply": 348270516,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9"
+            },
+            "cmc_rank": 54,
+            "last_updated": "2019-12-03T17:50:11.000Z",
+            "quote": {
+                "USD": {
+                    "price": 1.57276654964,
+                    "volume_24h": 7371530.68926902,
+                    "percent_change_1h": 0.671026,
+                    "percent_change_24h": 4.53161,
+                    "percent_change_7d": 12.3074,
+                    "market_cap": 82410104.66028218,
+                    "last_updated": "2019-12-03T17:50:11.000Z"
+                }
+            }
+        },
+        {
+            "id": 1214,
+            "name": "Lisk",
+            "symbol": "LSK",
+            "slug": "lisk",
+            "num_market_pairs": 61,
+            "date_added": "2016-04-06T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 121815578.812821,
+            "total_supply": 136844180,
+            "platform": null,
+            "cmc_rank": 55,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.675901595588,
+                    "volume_24h": 800313.290823365,
+                    "percent_change_1h": 0.255333,
+                    "percent_change_24h": 0.157998,
+                    "percent_change_7d": 3.11897,
+                    "market_cap": 82335344.08706148,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 2453,
+            "name": "EDUCare",
+            "symbol": "EKT",
+            "slug": "educare",
+            "num_market_pairs": 6,
+            "date_added": "2018-01-23T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 1000000000,
+            "total_supply": 1000000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x4ecdb6385f3db3847f9c4a9bf3f9917bb27a5452"
+            },
+            "cmc_rank": 56,
+            "last_updated": "2019-12-03T17:50:05.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0814429459224,
+                    "volume_24h": 4059646.74566891,
+                    "percent_change_1h": -1.08504,
+                    "percent_change_24h": -6.94018,
+                    "percent_change_7d": -25.1099,
+                    "market_cap": 81442945.92240001,
+                    "last_updated": "2019-12-03T17:50:05.000Z"
+                }
+            }
+        },
+        {
+            "id": 1866,
+            "name": "Bytom",
+            "symbol": "BTM",
+            "slug": "bytom",
+            "num_market_pairs": 50,
+            "date_added": "2017-08-08T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": null,
+            "circulating_supply": 1002499275,
+            "total_supply": 1407000000,
+            "platform": null,
+            "cmc_rank": 57,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0806846522332,
+                    "volume_24h": 9896809.89750304,
+                    "percent_change_1h": 0.492007,
+                    "percent_change_24h": 1.07705,
+                    "percent_change_7d": 15.2899,
+                    "market_cap": 80886305.36741012,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 2087,
+            "name": "KuCoin Shares",
+            "symbol": "KCS",
+            "slug": "kucoin-shares",
+            "num_market_pairs": 15,
+            "date_added": "2017-10-24T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 82363551,
+            "total_supply": 172363551,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x039b5649a59967e3e936d7471f9c3700100ee1ab"
+            },
+            "cmc_rank": 58,
+            "last_updated": "2019-12-03T17:50:04.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.976349201185,
+                    "volume_24h": 5711663.28364992,
+                    "percent_change_1h": 0.384017,
+                    "percent_change_24h": 1.71309,
+                    "percent_change_7d": 3.33902,
+                    "market_cap": 80415587.22561,
+                    "last_updated": "2019-12-03T17:50:04.000Z"
+                }
+            }
+        },
+        {
+            "id": 4172,
+            "name": "LUNA",
+            "symbol": "LUNA",
+            "slug": "luna",
+            "num_market_pairs": 10,
+            "date_added": "2019-07-26T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 287765804.430561,
+            "total_supply": 995859074.224591,
+            "platform": null,
+            "cmc_rank": 59,
+            "last_updated": "2019-12-03T17:50:12.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.260764517639,
+                    "volume_24h": 581112.300922115,
+                    "percent_change_1h": -0.719127,
+                    "percent_change_24h": -0.80482,
+                    "percent_change_7d": 14.7588,
+                    "market_cap": 75039111.18533404,
+                    "last_updated": "2019-12-03T17:50:12.000Z"
+                }
+            }
+        },
+        {
+            "id": 3890,
+            "name": "Matic Network",
+            "symbol": "MATIC",
+            "slug": "matic-network",
+            "num_market_pairs": 31,
+            "date_added": "2019-04-28T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 2536297092,
+            "total_supply": 10000000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x7D1AfA7B718fb893dB30A3aBc0Cfc608AaCfeBB0"
+            },
+            "cmc_rank": 60,
+            "last_updated": "2019-12-03T17:50:12.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0292878389827,
+                    "volume_24h": 67530501.2879593,
+                    "percent_change_1h": 0.297575,
+                    "percent_change_24h": 13.9805,
+                    "percent_change_7d": 37.713,
+                    "market_cap": 74282660.84278625,
+                    "last_updated": "2019-12-03T17:50:12.000Z"
+                }
+            }
+        },
+        {
+            "id": 2405,
+            "name": "IOST",
+            "symbol": "IOST",
+            "slug": "iostoken",
+            "num_market_pairs": 84,
+            "date_added": "2018-01-16T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 12013965608.8475,
+            "total_supply": 21000000000,
+            "platform": null,
+            "cmc_rank": 61,
+            "last_updated": "2019-12-03T17:50:06.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.00601688623746,
+                    "volume_24h": 49969454.1137713,
+                    "percent_change_1h": 1.15232,
+                    "percent_change_24h": 9.6038,
+                    "percent_change_7d": 24.6435,
+                    "market_cap": 72286664.32919228,
+                    "last_updated": "2019-12-03T17:50:06.000Z"
+                }
+            }
+        },
+        {
+            "id": 4279,
+            "name": "Swipe",
+            "symbol": "SXP",
+            "slug": "swipe",
+            "num_market_pairs": 9,
+            "date_added": "2019-08-26T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 61135911.166,
+            "total_supply": 300000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x8ce9137d39326ad0cd6491fb5cc0cba0e089b6a9"
+            },
+            "cmc_rank": 62,
+            "last_updated": "2019-12-03T17:50:11.000Z",
+            "quote": {
+                "USD": {
+                    "price": 1.17088521819,
+                    "volume_24h": 12778396.3508572,
+                    "percent_change_1h": 0.351816,
+                    "percent_change_24h": 1.45518,
+                    "percent_change_7d": 6.45374,
+                    "market_cap": 71583134.68484637,
+                    "last_updated": "2019-12-03T17:50:11.000Z"
+                }
+            }
+        },
+        {
+            "id": 2222,
+            "name": "Bitcoin Diamond",
+            "symbol": "BCD",
+            "slug": "bitcoin-diamond",
+            "num_market_pairs": 25,
+            "date_added": "2017-11-24T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 210000000,
+            "circulating_supply": 186492897.953,
+            "total_supply": 189492897.953,
+            "platform": null,
+            "cmc_rank": 63,
+            "last_updated": "2019-12-03T17:50:04.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.3785913246,
+                    "volume_24h": 3627649.56558706,
+                    "percent_change_1h": 1.63407,
+                    "percent_change_24h": 0.951612,
+                    "percent_change_7d": 1.53111,
+                    "market_cap": 70604593.2645189,
+                    "last_updated": "2019-12-03T17:50:04.000Z"
+                }
+            }
+        },
+        {
+            "id": 3155,
+            "name": "Quant",
+            "symbol": "QNT",
+            "slug": "quant",
+            "num_market_pairs": 18,
+            "date_added": "2018-08-10T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 12072738,
+            "total_supply": 14612493.0808262,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x4a220e6096b25eadb88358cb44068a3248254675"
+            },
+            "cmc_rank": 64,
+            "last_updated": "2019-12-03T17:50:08.000Z",
+            "quote": {
+                "USD": {
+                    "price": 5.75602978128,
+                    "volume_24h": 3185289.09508706,
+                    "percent_change_1h": -1.68765,
+                    "percent_change_24h": -2.78791,
+                    "percent_change_7d": 1.51729,
+                    "market_cap": 69491039.46959074,
+                    "last_updated": "2019-12-03T17:50:08.000Z"
+                }
+            }
+        },
+        {
+            "id": 2099,
+            "name": "ICON",
+            "symbol": "ICX",
+            "slug": "icon",
+            "num_market_pairs": 63,
+            "date_added": "2017-10-27T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 507615614.774616,
+            "total_supply": 800460000,
+            "platform": null,
+            "cmc_rank": 65,
+            "last_updated": "2019-12-03T17:50:04.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.133492294505,
+                    "volume_24h": 32153240.4880511,
+                    "percent_change_1h": 0.0242091,
+                    "percent_change_24h": 2.55088,
+                    "percent_change_7d": 4.04237,
+                    "market_cap": 67762773.14282967,
+                    "last_updated": "2019-12-03T17:50:04.000Z"
+                }
+            }
+        },
+        {
+            "id": 2416,
+            "name": "THETA",
+            "symbol": "THETA",
+            "slug": "theta",
+            "num_market_pairs": 30,
+            "date_added": "2018-01-17T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 870502690,
+            "total_supply": 1000000000,
+            "platform": null,
+            "cmc_rank": 66,
+            "last_updated": "2019-12-03T17:50:05.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0776961770496,
+                    "volume_24h": 2122652.42934582,
+                    "percent_change_1h": 0.188252,
+                    "percent_change_24h": -1.61936,
+                    "percent_change_7d": 5.36161,
+                    "market_cap": 67634731.12439306,
+                    "last_updated": "2019-12-03T17:50:05.000Z"
+                }
+            }
+        },
+        {
+            "id": 3718,
+            "name": "BitTorrent",
+            "symbol": "BTT",
+            "slug": "bittorrent",
+            "num_market_pairs": 129,
+            "date_added": "2019-01-31T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 212116500000,
+            "total_supply": 990000000000,
+            "platform": {
+                "id": 1958,
+                "name": "TRON",
+                "symbol": "TRX",
+                "slug": "tron",
+                "token_address": "1002000"
+            },
+            "cmc_rank": 67,
+            "last_updated": "2019-12-03T17:50:11.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.00031271429109,
+                    "volume_24h": 62782075.2227902,
+                    "percent_change_1h": 0.0819155,
+                    "percent_change_24h": 4.41056,
+                    "percent_change_7d": 3.34947,
+                    "market_cap": 66331860.92599198,
+                    "last_updated": "2019-12-03T17:50:11.000Z"
+                }
+            }
+        },
+        {
+            "id": 2441,
+            "name": "Molecular Future",
+            "symbol": "MOF",
+            "slug": "molecular-future",
+            "num_market_pairs": 11,
+            "date_added": "2018-01-20T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 43842875.0687909,
+            "total_supply": 100000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x653430560be843c4a3d143d0110e896c2ab8ac0d"
+            },
+            "cmc_rank": 68,
+            "last_updated": "2019-12-03T17:50:05.000Z",
+            "quote": {
+                "USD": {
+                    "price": 1.49871846588,
+                    "volume_24h": 32615588.7264058,
+                    "percent_change_1h": 6.82042,
+                    "percent_change_24h": -5.39534,
+                    "percent_change_7d": 36.3568,
+                    "market_cap": 65708126.46286679,
+                    "last_updated": "2019-12-03T17:50:05.000Z"
+                }
+            }
+        },
+        {
+            "id": 1042,
+            "name": "Siacoin",
+            "symbol": "SC",
+            "slug": "siacoin",
+            "num_market_pairs": 38,
+            "date_added": "2015-08-26T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": null,
+            "circulating_supply": 41817047634,
+            "total_supply": 41817047634,
+            "platform": null,
+            "cmc_rank": 69,
+            "last_updated": "2019-12-03T17:50:02.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.00157022676214,
+                    "volume_24h": 1794335.4196558,
+                    "percent_change_1h": 0.202155,
+                    "percent_change_24h": 5.11487,
+                    "percent_change_7d": 3.46906,
+                    "market_cap": 65662247.30858997,
+                    "last_updated": "2019-12-03T17:50:02.000Z"
+                }
+            }
+        },
+        {
+            "id": 693,
+            "name": "Verge",
+            "symbol": "XVG",
+            "slug": "verge",
+            "num_market_pairs": 59,
+            "date_added": "2014-10-25T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 16555000000,
+            "circulating_supply": 16085706139.1206,
+            "total_supply": 16085706139.1206,
+            "platform": null,
+            "cmc_rank": 70,
+            "last_updated": "2019-12-03T17:50:02.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.00387770442403,
+                    "volume_24h": 2035736.69637427,
+                    "percent_change_1h": -0.190876,
+                    "percent_change_24h": -0.920333,
+                    "percent_change_7d": -2.04878,
+                    "market_cap": 62375613.85931448,
+                    "last_updated": "2019-12-03T17:50:02.000Z"
+                }
+            }
+        },
+        {
+            "id": 1776,
+            "name": "MCO",
+            "symbol": "MCO",
+            "slug": "crypto-com",
+            "num_market_pairs": 57,
+            "date_added": "2017-07-03T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 15793831.0949625,
+            "total_supply": 31587682.3632061,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xb63b606ac810a52cca15e44bb630fd42d8d1d83d"
+            },
+            "cmc_rank": 71,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 3.94842385314,
+                    "volume_24h": 7830909.49852268,
+                    "percent_change_1h": 0.291653,
+                    "percent_change_24h": 0.768251,
+                    "percent_change_7d": 2.59738,
+                    "market_cap": 62360739.42781418,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 2308,
+            "name": "Single Collateral DAI ",
+            "symbol": "SAI",
+            "slug": "single-collateral-dai",
+            "num_market_pairs": 45,
+            "date_added": "2017-12-24T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 61500329.5675354,
+            "total_supply": 61500329.5675354,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+            },
+            "cmc_rank": 72,
+            "last_updated": "2019-12-03T17:50:05.000Z",
+            "quote": {
+                "USD": {
+                    "price": 1.00722341331,
+                    "volume_24h": 1854466.86151059,
+                    "percent_change_1h": 0.15634,
+                    "percent_change_24h": 0.725056,
+                    "percent_change_7d": -0.517509,
+                    "market_cap": 61944571.86670292,
+                    "last_updated": "2019-12-03T17:50:05.000Z"
+                }
+            }
+        },
+        {
+            "id": 1274,
+            "name": "Waves",
+            "symbol": "WAVES",
+            "slug": "waves",
+            "num_market_pairs": 142,
+            "date_added": "2016-06-02T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 100499014,
+            "total_supply": 100499014,
+            "platform": null,
+            "cmc_rank": 73,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.593189669709,
+                    "volume_24h": 10990900.4857316,
+                    "percent_change_1h": 0.182441,
+                    "percent_change_24h": 0.153617,
+                    "percent_change_7d": -1.41238,
+                    "market_cap": 59614976.920740165,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 213,
+            "name": "MonaCoin",
+            "symbol": "MONA",
+            "slug": "monacoin",
+            "num_market_pairs": 14,
+            "date_added": "2014-03-20T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": null,
+            "circulating_supply": 65729674.8711679,
+            "total_supply": 65729674.8711679,
+            "platform": null,
+            "cmc_rank": 74,
+            "last_updated": "2019-12-03T17:50:01.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.902652176933,
+                    "volume_24h": 442171.950269877,
+                    "percent_change_1h": -0.0992111,
+                    "percent_change_24h": -0.200217,
+                    "percent_change_7d": -1.59539,
+                    "market_cap": 59331034.11155801,
+                    "last_updated": "2019-12-03T17:50:01.000Z"
+                }
+            }
+        },
+        {
+            "id": 372,
+            "name": "Bytecoin",
+            "symbol": "BCN",
+            "slug": "bytecoin-bcn",
+            "num_market_pairs": 11,
+            "date_added": "2014-06-17T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 184470000000,
+            "circulating_supply": 184066828814.059,
+            "total_supply": 184066828814.059,
+            "platform": null,
+            "cmc_rank": 75,
+            "last_updated": "2019-12-03T17:50:01.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.000318043975906,
+                    "volume_24h": 10137.657046602,
+                    "percent_change_1h": -0.073373,
+                    "percent_change_24h": -4.22243,
+                    "percent_change_7d": -0.513448,
+                    "market_cap": 58541346.068432406,
+                    "last_updated": "2019-12-03T17:50:01.000Z"
+                }
+            }
+        },
+        {
+            "id": 291,
+            "name": "MaidSafeCoin",
+            "symbol": "MAID",
+            "slug": "maidsafecoin",
+            "num_market_pairs": 6,
+            "date_added": "2014-04-28T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 452552412,
+            "total_supply": 452552412,
+            "platform": {
+                "id": 83,
+                "name": "Omni",
+                "symbol": "OMNI",
+                "slug": "omni",
+                "token_address": "3"
+            },
+            "cmc_rank": 76,
+            "last_updated": "2019-12-03T17:50:01.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.125417835744,
+                    "volume_24h": 231114.634609287,
+                    "percent_change_1h": 0.500812,
+                    "percent_change_24h": 3.64188,
+                    "percent_change_7d": 13.9169,
+                    "market_cap": 56758144.073767014,
+                    "last_updated": "2019-12-03T17:50:01.000Z"
+                }
+            }
+        },
+        {
+            "id": 463,
+            "name": "BitShares",
+            "symbol": "BTS",
+            "slug": "bitshares",
+            "num_market_pairs": 85,
+            "date_added": "2014-07-21T00:00:00.000Z",
+            "tags": [],
+            "max_supply": 3600570502,
+            "circulating_supply": 2748870000,
+            "total_supply": 2748870000,
+            "platform": null,
+            "cmc_rank": 77,
+            "last_updated": "2019-12-03T17:50:02.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0203886669188,
+                    "volume_24h": 1672277.70557722,
+                    "percent_change_1h": 0.583405,
+                    "percent_change_24h": 1.48167,
+                    "percent_change_7d": -1.47794,
+                    "market_cap": 56045794.83308176,
+                    "last_updated": "2019-12-03T17:50:02.000Z"
+                }
+            }
+        },
+        {
+            "id": 1903,
+            "name": "HyperCash",
+            "symbol": "HC",
+            "slug": "hypercash",
+            "num_market_pairs": 32,
+            "date_added": "2017-08-20T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 84000000,
+            "circulating_supply": 44444850.113052,
+            "total_supply": 44444850.113052,
+            "platform": null,
+            "cmc_rank": 78,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 1.23712752856,
+                    "volume_24h": 1815936.31902474,
+                    "percent_change_1h": 0.942206,
+                    "percent_change_24h": 3.29596,
+                    "percent_change_7d": 6.42802,
+                    "market_cap": 54983947.57757966,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 2694,
+            "name": "Nexo",
+            "symbol": "NEXO",
+            "slug": "nexo",
+            "num_market_pairs": 21,
+            "date_added": "2018-05-01T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 560000011,
+            "total_supply": 1000000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xb62132e35a6c13ee1ee0f84dc5d40bad8d815206"
+            },
+            "cmc_rank": 79,
+            "last_updated": "2019-12-03T17:50:08.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0937806831929,
+                    "volume_24h": 9254486.29994665,
+                    "percent_change_1h": 0.493803,
+                    "percent_change_24h": 0.760039,
+                    "percent_change_7d": 4.60248,
+                    "market_cap": 52517183.61961152,
+                    "last_updated": "2019-12-03T17:50:08.000Z"
+                }
+            }
+        },
+        {
+            "id": 1320,
+            "name": "Ardor",
+            "symbol": "ARDR",
+            "slug": "ardor",
+            "num_market_pairs": 25,
+            "date_added": "2016-07-23T00:00:00.000Z",
+            "tags": [],
+            "max_supply": 998999495,
+            "circulating_supply": 998999495,
+            "total_supply": 998999495,
+            "platform": null,
+            "cmc_rank": 80,
+            "last_updated": "2019-12-03T17:50:02.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0496994972603,
+                    "volume_24h": 2228673.41294132,
+                    "percent_change_1h": -0.282639,
+                    "percent_change_24h": -0.966216,
+                    "percent_change_7d": 6.3549,
+                    "market_cap": 49649772.66479358,
+                    "last_updated": "2019-12-03T17:50:02.000Z"
+                }
+            }
+        },
+        {
+            "id": 2130,
+            "name": "Enjin Coin",
+            "symbol": "ENJ",
+            "slug": "enjin-coin",
+            "num_market_pairs": 50,
+            "date_added": "2017-11-01T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 784764641.564264,
+            "total_supply": 1000000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xf629cbd94d3791c9250152bd8dfbdf380e2a3b9c"
+            },
+            "cmc_rank": 81,
+            "last_updated": "2019-12-03T17:50:04.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0604429820251,
+                    "volume_24h": 43941303.4791828,
+                    "percent_change_1h": 1.33634,
+                    "percent_change_24h": 2.16485,
+                    "percent_change_7d": 10.8793,
+                    "market_cap": 47433515.12400285,
+                    "last_updated": "2019-12-03T17:50:04.000Z"
+                }
+            }
+        },
+        {
+            "id": 2469,
+            "name": "Zilliqa",
+            "symbol": "ZIL",
+            "slug": "zilliqa",
+            "num_market_pairs": 104,
+            "date_added": "2018-01-25T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": null,
+            "circulating_supply": 8687360058.0875,
+            "total_supply": 12533042434.6081,
+            "platform": null,
+            "cmc_rank": 82,
+            "last_updated": "2019-12-03T17:50:06.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.00545765690557,
+                    "volume_24h": 6802407.15982686,
+                    "percent_change_1h": 0.117706,
+                    "percent_change_24h": 4.90379,
+                    "percent_change_7d": 8.86151,
+                    "market_cap": 47412630.61219424,
+                    "last_updated": "2019-12-03T17:50:06.000Z"
+                }
+            }
+        },
+        {
+            "id": 1700,
+            "name": "Aeternity",
+            "symbol": "AE",
+            "slug": "aeternity",
+            "num_market_pairs": 51,
+            "date_added": "2017-06-01T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": null,
+            "circulating_supply": 293154955.5,
+            "total_supply": 338975899.49932,
+            "platform": null,
+            "cmc_rank": 83,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.161014748271,
+                    "volume_24h": 9991944.94405666,
+                    "percent_change_1h": 0.616149,
+                    "percent_change_24h": 0.55051,
+                    "percent_change_7d": 4.23663,
+                    "market_cap": 47202271.36422871,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 1637,
+            "name": "iExec RLC",
+            "symbol": "RLC",
+            "slug": "rlc",
+            "num_market_pairs": 16,
+            "date_added": "2017-04-20T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 80070793.2387674,
+            "total_supply": 86999784.9868455,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x607f4c5bb672230e8672085532f7e901544a7375"
+            },
+            "cmc_rank": 84,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.563164045582,
+                    "volume_24h": 1695483.83515868,
+                    "percent_change_1h": 1.09052,
+                    "percent_change_24h": -1.17706,
+                    "percent_change_7d": -16.0756,
+                    "market_cap": 45092991.853304096,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 1230,
+            "name": "Steem",
+            "symbol": "STEEM",
+            "slug": "steem",
+            "num_market_pairs": 33,
+            "date_added": "2016-04-18T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 352914862.144,
+            "total_supply": 369888956.144,
+            "platform": null,
+            "cmc_rank": 85,
+            "last_updated": "2019-12-03T17:50:02.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.121370293486,
+                    "volume_24h": 475730.167889533,
+                    "percent_change_1h": 0.427467,
+                    "percent_change_24h": -3.69769,
+                    "percent_change_7d": 2.51298,
+                    "market_cap": 42833380.393988505,
+                    "last_updated": "2019-12-03T17:50:02.000Z"
+                }
+            }
+        },
+        {
+            "id": 1698,
+            "name": "Horizen",
+            "symbol": "ZEN",
+            "slug": "horizen",
+            "num_market_pairs": 34,
+            "date_added": "2017-06-01T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 21000000,
+            "circulating_supply": 7898362.5,
+            "total_supply": 7898362.5,
+            "platform": null,
+            "cmc_rank": 86,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 5.37999133297,
+                    "volume_24h": 615574.626993145,
+                    "percent_change_1h": 0.710767,
+                    "percent_change_24h": -0.559125,
+                    "percent_change_7d": 1.51954,
+                    "market_cap": 42493121.79465526,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 4066,
+            "name": "Chiliz",
+            "symbol": "CHZ",
+            "slug": "chiliz",
+            "num_market_pairs": 10,
+            "date_added": "2019-07-01T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 3763769182,
+            "total_supply": 8888888888,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x3506424f91fd33084466f402d5d97f05f8e3b4af"
+            },
+            "cmc_rank": 87,
+            "last_updated": "2019-12-03T17:50:11.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0111613851252,
+                    "volume_24h": 2982767.36379406,
+                    "percent_change_1h": -0.61761,
+                    "percent_change_24h": -2.89984,
+                    "percent_change_7d": -1.96836,
+                    "market_cap": 42008877.362660974,
+                    "last_updated": "2019-12-03T17:50:11.000Z"
+                }
+            }
+        },
+        {
+            "id": 3139,
+            "name": "DxChain Token",
+            "symbol": "DX",
+            "slug": "dxchain-token",
+            "num_market_pairs": 8,
+            "date_added": "2018-08-10T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 49999999999.6862,
+            "total_supply": 100000000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x973e52691176d36453868D9d86572788d27041A9"
+            },
+            "cmc_rank": 88,
+            "last_updated": "2019-12-03T17:50:08.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.000809741160562,
+                    "volume_24h": 1318031.10314973,
+                    "percent_change_1h": 1.81316,
+                    "percent_change_24h": -13.9345,
+                    "percent_change_7d": -22.7511,
+                    "market_cap": 40487058.027845904,
+                    "last_updated": "2019-12-03T17:50:08.000Z"
+                }
+            }
+        },
+        {
+            "id": 3724,
+            "name": "SOLVE",
+            "symbol": "SOLVE",
+            "slug": "solve",
+            "num_market_pairs": 9,
+            "date_added": "2019-02-04T00:00:00.000Z",
+            "tags": [],
+            "max_supply": 1000000000,
+            "circulating_supply": 327424138.235688,
+            "total_supply": 1000000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x446c9033e7516d820cc9a2ce2d0b7328b579406f"
+            },
+            "cmc_rank": 89,
+            "last_updated": "2019-12-03T17:50:10.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.122743869171,
+                    "volume_24h": 631483.554736872,
+                    "percent_change_1h": -0.207199,
+                    "percent_change_24h": 2.47675,
+                    "percent_change_7d": 20.1349,
+                    "market_cap": 40189305.587028705,
+                    "last_updated": "2019-12-03T17:50:10.000Z"
+                }
+            }
+        },
+        {
+            "id": 3773,
+            "name": "Fetch.ai",
+            "symbol": "FET",
+            "slug": "fetch",
+            "num_market_pairs": 28,
+            "date_added": "2019-03-02T00:00:00.000Z",
+            "tags": [],
+            "max_supply": 1152997575,
+            "circulating_supply": 654648660.284661,
+            "total_supply": 1152997575,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x1d287cc25dad7ccaf76a26bc660c5f7c8e2a05bd"
+            },
+            "cmc_rank": 90,
+            "last_updated": "2019-12-03T17:50:10.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0610040700661,
+                    "volume_24h": 18146278.2069336,
+                    "percent_change_1h": 0.0726042,
+                    "percent_change_24h": 0.312027,
+                    "percent_change_7d": 25.9084,
+                    "market_cap": 39936232.74068396,
+                    "last_updated": "2019-12-03T17:50:10.000Z"
+                }
+            }
+        },
+        {
+            "id": 1759,
+            "name": "Status",
+            "symbol": "SNT",
+            "slug": "status",
+            "num_market_pairs": 86,
+            "date_added": "2017-06-28T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 3470483788,
+            "total_supply": 6804870174,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x744d70fdbe2ba4cf95131626614a1763df805b9e"
+            },
+            "cmc_rank": 91,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0109200055535,
+                    "volume_24h": 185631449.836274,
+                    "percent_change_1h": 0.731251,
+                    "percent_change_24h": -0.0769806,
+                    "percent_change_7d": 8.43666,
+                    "market_cap": 37897702.23829171,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 1455,
+            "name": "Golem",
+            "symbol": "GNT",
+            "slug": "golem-network-tokens",
+            "num_market_pairs": 98,
+            "date_added": "2016-11-18T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 980050000,
+            "total_supply": 1000000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xa74476443119A942dE498590Fe1f2454d7D4aC0d"
+            },
+            "cmc_rank": 92,
+            "last_updated": "2019-12-03T17:50:03.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.038350973311,
+                    "volume_24h": 2011692.81164495,
+                    "percent_change_1h": -0.273305,
+                    "percent_change_24h": 0.434262,
+                    "percent_change_7d": 5.73853,
+                    "market_cap": 37585871.39344555,
+                    "last_updated": "2019-12-03T17:50:03.000Z"
+                }
+            }
+        },
+        {
+            "id": 2137,
+            "name": "Electroneum",
+            "symbol": "ETN",
+            "slug": "electroneum",
+            "num_market_pairs": 20,
+            "date_added": "2017-11-02T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 21000000000,
+            "circulating_supply": 9908576538.64,
+            "total_supply": 9908576538.64,
+            "platform": null,
+            "cmc_rank": 93,
+            "last_updated": "2019-12-03T17:50:04.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.00378690408544,
+                    "volume_24h": 110581.038325479,
+                    "percent_change_1h": 0.234197,
+                    "percent_change_24h": -2.72857,
+                    "percent_change_7d": 11.3101,
+                    "market_cap": 37522828.975070745,
+                    "last_updated": "2019-12-03T17:50:04.000Z"
+                }
+            }
+        },
+        {
+            "id": 2603,
+            "name": "Pundi X",
+            "symbol": "NPXS",
+            "slug": "pundi-x",
+            "num_market_pairs": 69,
+            "date_added": "2018-03-22T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 234562817276.377,
+            "total_supply": 259810708832.63,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xa15c7ebe1f07caf6bff097d8a589fb8ac49ae5b3"
+            },
+            "cmc_rank": 94,
+            "last_updated": "2019-12-03T17:50:07.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.000159712266895,
+                    "volume_24h": 1176835.0880337,
+                    "percent_change_1h": 0.755989,
+                    "percent_change_24h": 3.06984,
+                    "percent_change_7d": 13.5501,
+                    "market_cap": 37462559.27648784,
+                    "last_updated": "2019-12-03T17:50:07.000Z"
+                }
+            }
+        },
+        {
+            "id": 2772,
+            "name": "Digitex Futures",
+            "symbol": "DGTX",
+            "slug": "digitex-futures",
+            "num_market_pairs": 7,
+            "date_added": "2018-05-23T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 786260027.490069,
+            "total_supply": 1000000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x1c83501478f1320977047008496dacbd60bb15ef"
+            },
+            "cmc_rank": 95,
+            "last_updated": "2019-12-03T17:50:09.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.0470412287837,
+                    "volume_24h": 1549056.39588179,
+                    "percent_change_1h": 1.42527,
+                    "percent_change_24h": 8.7698,
+                    "percent_change_7d": -8.19951,
+                    "market_cap": 36986637.836638585,
+                    "last_updated": "2019-12-03T17:50:09.000Z"
+                }
+            }
+        },
+        {
+            "id": 2447,
+            "name": "Crypterium",
+            "symbol": "CRPT",
+            "slug": "crpt",
+            "num_market_pairs": 9,
+            "date_added": "2018-01-22T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 84759818.6100001,
+            "total_supply": 99757369.7528572,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x80a7e048f37a50500351c204cb407766fa3bae7f"
+            },
+            "cmc_rank": 96,
+            "last_updated": "2019-12-03T17:50:05.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.436256524878,
+                    "volume_24h": 227279.869449727,
+                    "percent_change_1h": 0.227559,
+                    "percent_change_24h": -1.2177,
+                    "percent_change_7d": -1.12216,
+                    "market_cap": 36977023.916088276,
+                    "last_updated": "2019-12-03T17:50:05.000Z"
+                }
+            }
+        },
+        {
+            "id": 4079,
+            "name": "Silverway",
+            "symbol": "SLV",
+            "slug": "silverway",
+            "num_market_pairs": 5,
+            "date_added": "2019-07-03T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 100000000,
+            "total_supply": 1000000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0x4c1c4957d22d8f373aed54d0853b090666f6f9de"
+            },
+            "cmc_rank": 97,
+            "last_updated": "2019-12-03T17:50:11.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.368433096237,
+                    "volume_24h": 2522897.10638977,
+                    "percent_change_1h": 0.679182,
+                    "percent_change_24h": -5.81194,
+                    "percent_change_7d": -41.002,
+                    "market_cap": 36843309.6237,
+                    "last_updated": "2019-12-03T17:50:11.000Z"
+                }
+            }
+        },
+        {
+            "id": 3617,
+            "name": "ILCoin",
+            "symbol": "ILC",
+            "slug": "ilcoin",
+            "num_market_pairs": 26,
+            "date_added": "2018-11-26T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": 2500000000,
+            "circulating_supply": 345442487.370894,
+            "total_supply": 1299138907.43547,
+            "platform": null,
+            "cmc_rank": 98,
+            "last_updated": "2019-12-03T17:50:10.000Z",
+            "quote": {
+                "USD": {
+                    "price": 0.106160832711,
+                    "volume_24h": 685349.774342354,
+                    "percent_change_1h": 0.356408,
+                    "percent_change_24h": -6.46413,
+                    "percent_change_7d": 17.3967,
+                    "market_cap": 36672462.11305321,
+                    "last_updated": "2019-12-03T17:50:10.000Z"
+                }
+            }
+        },
+        {
+            "id": 1229,
+            "name": "DigixDAO",
+            "symbol": "DGD",
+            "slug": "digixdao",
+            "num_market_pairs": 27,
+            "date_added": "2016-04-18T00:00:00.000Z",
+            "tags": [],
+            "max_supply": null,
+            "circulating_supply": 2000000,
+            "total_supply": 2000000,
+            "platform": {
+                "id": 1027,
+                "name": "Ethereum",
+                "symbol": "ETH",
+                "slug": "ethereum",
+                "token_address": "0xe0b7927c4af23765cb51314a0e0521a9645f0e2a"
+            },
+            "cmc_rank": 99,
+            "last_updated": "2019-12-03T17:50:02.000Z",
+            "quote": {
+                "USD": {
+                    "price": 18.278071916,
+                    "volume_24h": 1123274.00678898,
+                    "percent_change_1h": -0.733457,
+                    "percent_change_24h": 8.14632,
+                    "percent_change_7d": 36.9737,
+                    "market_cap": 36556143.831999995,
+                    "last_updated": "2019-12-03T17:50:02.000Z"
+                }
+            }
+        },
+        {
+            "id": 3218,
+            "name": "Energi",
+            "symbol": "NRG",
+            "slug": "energi",
+            "num_market_pairs": 5,
+            "date_added": "2018-08-23T00:00:00.000Z",
+            "tags": ["mineable"],
+            "max_supply": null,
+            "circulating_supply": 23264367.6599914,
+            "total_supply": 23264367.6599914,
+            "platform": null,
+            "cmc_rank": 100,
+            "last_updated": "2019-12-03T17:50:08.000Z",
+            "quote": {
+                "USD": {
+                    "price": 1.557659811,
+                    "volume_24h": 326236.08064159,
+                    "percent_change_1h": 3.56766,
+                    "percent_change_24h": 2.40033,
+                    "percent_change_7d": -4.03057,
+                    "market_cap": 36237970.53229671,
+                    "last_updated": "2019-12-03T17:50:08.000Z"
+                }
+            }
+        }
+    ]
+}

@@ -29,12 +29,14 @@ dev mock: cross-env to run offline
     -   componentDidMount
     -   componentWillUnmount
     -   componentDidUpdate
+-   !Makes the component re-render
 
 1.  start with useState const [time, setTime] = useState(new Date());
 2.  then useEffect, pass a function as the parameter
 3.  useEffect(() => {})
-4.  inside that function run the function to update state
-5.  useEffect(() => {const time = setTime()})
+4.  useEffect(() => {}, []) add an empty array so it returns on mount not on rerender. and doesn't keep rendering and calling forever and breaking
+5.  inside that function run the function to update state
+6.  useEffect(() => {const time = setTime()})
 
 ## useContext - Application Level State (Redux)
 
@@ -55,3 +57,14 @@ dev mock: cross-env to run offline
 -   select onChange must have onBlur for tabbing through (A11y)
 
 ! input - two way data binding is not free
+
+### Extras
+
+## Promises
+
+-   Promises: something that will happen in the future
+-   creating a promise
+    -   const p = new Promise() //object: Promise constructor
+    -   const p = new Promise((resolve, reject) => { })
+-   Error! - Uncaught (in promise) : means error not in catch()
+-   reject(Error("Wes is so not cool")); : wrap message in Error() to see where it broke

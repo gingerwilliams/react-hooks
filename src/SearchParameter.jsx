@@ -1,16 +1,43 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
+import zipcodes from "zipcodes";
 // import pet, { ANIMALS } from "@frontendmasters/pet";
 import { useDropdown } from "./hooks/use-dropdown";
-// import { list, info } from "./endpoints/endpoints";
+import {
+    categories,
+    cities,
+    getCity,
+    fetchOptions
+} from "./endpoints/endpoints";
 
-const list = "./data/listings.json";
-const info = "./data/info.json";
+// const list = "./data/listings.json";
+// const info = "./data/info.json";
 
 const SearchParams = () => {
-    // const cryptocurrency = "Bitcoin";
+    const city = useRef("");
+    const [location, setLocation] = useState({}); //rerenders
 
-    const [cryptocurrency, setCryptocurrency] = useState("Bitcoin"); //rerenders
-    const [coins, setCoins] = useState({});
+    const handleChange = event => {
+        event.preventDefault();
+
+        const target = event.target;
+        const value = target.value;
+        target.name = value;
+
+        const zip = parseInt(value);
+        const geolocation = zipcodes.lookup(zip);
+
+        if (value.length === 5 && geolocation) setLocation(geolocation);
+
+        //rerenders and pulls api every letter!!!!
+    };
+
+    const handleSubmit = event => {
+        event.preventDefault();
+        // location
+        console.log("submit");
+    };
+
+    console.log(location);
 
     // const [breeds, setBreeds] = useState([]); //breeds will update
     // const [animal, setAnimal] = useState("dog");
@@ -23,46 +50,35 @@ const SearchParams = () => {
         //pet.breeds("dogs").then(console.log, console.error);
 
         // fetch(list).then(console.log, console.error);
-        fetch(list, {
-            headers: {
-                "Content-Type": "application/json",
-                Accept: "application/json"
-            }
-        })
+        fetch(cities, fetchOptions)
             .then(res => res.json())
             .then(data => {
-                setCoins(data.data);
+                console.log(data);
             })
             .catch(err => console.log("error: ", err));
     }, []); // make sure to put the empty array as the second arg
 
-    const [coin, CoinDropdown] = useDropdown(
-        "CryptoCurrency",
-        "Choose Coin",
-        coins
-    );
+    // const [coin, CoinDropdown] = useDropdown(
+    //     "CryptoCurrency",
+    //     "Choose Coin",
+    //     coins
+    // );
 
     return (
         <div className='search-params'>
-            <h1>{cryptocurrency}</h1>
-            <form>
-                <label htmlFor='cryptocurrency'>
-                    cryptocurrency
+            <h1>Title</h1>
+            <form onSubmit={handleSubmit}>
+                <label htmlFor='location'>
+                    Location: {location.city}
                     <input
-                        id='cryptocurrency'
-                        value={cryptocurrency}
-                        onChange={event => {
-                            event.preventDefault();
-                            setCryptocurrency(event.target.value); //rerenders and pulls api every letter!!!!
-                        }}
-                        placeholder='cryptocurrency'
+                        id='location'
+                        name='location'
+                        ref={city}
+                        maxLength='5'
+                        onChange={handleChange}
+                        placeholder='location'
                     />
                 </label>
-                {coins.length > 0 ? (
-                    "coin drop" // <CoinDropdown />
-                ) : (
-                    <div className='loader'>Loading...</div>
-                )}
 
                 <button>Submit</button>
             </form>

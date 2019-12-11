@@ -22,9 +22,12 @@
         "eslint-plugin-jsx-a11y": "^6.2.0",
         "eslint-plugin-react": "^7.12.4",
         "eslint-plugin-react-hooks": "^1.0.2",
+        "i": "^0.3.6",
+        "npm": "^6.13.2",
         "parcel-bundler": "^1.12.1",
         "parcel-plugin-static-files-copy": "^2.2.1",
-        "prettier": "^1.16.1"
+        "prettier": "^1.16.1",
+        "zipcodes": "^8.0.0"
     },
     "scripts": {
         "clear-build-cache": "rm -rf .cache/ dist/",

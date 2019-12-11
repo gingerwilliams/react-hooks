@@ -87,11 +87,13 @@ body {
 header > a,
 #root > div > h1 {
     display: inline-block;
-    background-image: url(https://coincap.io/static/logos/black.svg);
+    background-image: url(https://image.flaticon.com/icons/svg/1147/1147822.svg);
+    background-size: cover;
     width: 75px;
-    height: 30px;
+    height: 75px;
     overflow: hidden;
     text-indent: -9999px;
+    background-size: cover;
 }
 
 .pet h2 {
@@ -171,7 +173,6 @@ header {
 
 .search-params label {
     display: block;
-    width: 60px;
 }
 
 .search-params input,
